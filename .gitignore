@@ -1,0 +1,49 @@
+﻿# Python cache and environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MRI data and generated features
+data/
+raw_data/
+features/
+graphs/
+subjects/
+*.nii
+*.nii.gz
+*.dcm
+*.img
+*.hdr
+
+# Trained models and generated results
+models/
+results/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# Atlas image files (keep atlas label CSV files)
+atlas/*.nii
+atlas/*.nii.gz
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/

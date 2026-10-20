@@ -1,0 +1,7 @@
+numpy
+pandas
+nibabel
+nilearn
+scikit-learn
+torch
+torch-geometric
